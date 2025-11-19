@@ -10,7 +10,7 @@ st.set_page_config(page_title="LoL Ultimate Scanner", page_icon="♾️", layout
 try:
     API_KEY = st.secrets["RIOT_API_KEY"]
 except:
-    API_KEY = "RGAPI-6a35e62f-fe71-4584-a17c-db59549326f3" 
+    API_KEY = "" 
 
 REGION_ROUTING = "europe"
 
@@ -193,4 +193,5 @@ if st.session_state.df is not None:
                 "winrate": st.column_config.NumberColumn("WR %", format="%.1f %%")
             },
             hide_index=True
+
         )
