@@ -2,8 +2,9 @@ import streamlit as st
 import requests
 import pandas as pd
 import time
+import streamlit as st
+from pathlib import Path
 
-# Si l'URL contient ?riot=true, on affiche juste le code et on s'arrête.
 # Si quelqu'un demande /?riot=true on affiche le fichier
 if st.query_params.get("riot") == ["true"]:
     txt_path = Path("riot.txt")
@@ -11,7 +12,7 @@ if st.query_params.get("riot") == ["true"]:
         st.write(txt_path.read_text())
     else:
         st.write("riot.txt introuvable")
-    st.stop()-----------------
+    st.stop(
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(
     page_title="LoL Ultimate Scanner",
@@ -303,5 +304,6 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
