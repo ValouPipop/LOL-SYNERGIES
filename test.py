@@ -5,13 +5,18 @@ import time
 import streamlit as st
 from pathlib import Path
 
-# Tente de détecter le path dans request headers
-headers = st.context.headers if hasattr(st.context, "headers") else {}
 
-if "riot.txt" in str(headers):
-    st.write(Path("riot.txt").read_text())
+
+# Récupération de l'URL brute
+raw_url = st.request.url if hasattr(st, "request") else ""
+
+# Si l'URL contient "/riot.txt", on renvoie le fichier brut
+if raw_url.endswith("/riot.txt"):
+    st.markdown(
+        f"<pre>{Path('riot.txt').read_text()}</pre>",
+        unsafe_allow_html=True
+    )
     st.stop()
-
 
 
 # --- CONFIGURATION DE LA PAGE ---
@@ -305,6 +310,7 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
 
