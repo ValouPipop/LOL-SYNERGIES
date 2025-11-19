@@ -7,16 +7,15 @@ from pathlib import Path
 
 
 
-# Récupération de l'URL brute
-raw_url = st.request.url if hasattr(st, "request") else ""
 
-# Si l'URL contient "/riot.txt", on renvoie le fichier brut
-if raw_url.endswith("/riot.txt"):
-    st.markdown(
-        f"<pre>{Path('riot.txt').read_text()}</pre>",
-        unsafe_allow_html=True
-    )
+# URL brute (fonctionne sur toutes les versions de Streamlit Cloud)
+requested_url = st.request.url if hasattr(st, "request") else ""
+
+# Si quelqu'un appelle directement /riot.txt
+if requested_url.endswith("/riot.txt"):
+    st.markdown("<pre>e7c9e2f7-71b1-4805-b9e6-fb8fe60ef993</pre>", unsafe_allow_html=True)
     st.stop()
+
 
 
 # --- CONFIGURATION DE LA PAGE ---
@@ -310,6 +309,7 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
 
