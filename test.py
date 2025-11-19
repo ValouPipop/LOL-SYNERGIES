@@ -3,12 +3,19 @@ import requests
 import pandas as pd
 import time
 
+import streamlit as st
+from pathlib import Path
 
+# Récupération des paramètres de l'URL
 query = st.experimental_get_query_params()
 
-if "riot" in query and query["riot"] == ["true"]:
-    content = Path("riot.txt").read_text()
-    st.write(content)
+# Si on demande ?riot=true, on renvoie le contenu du fichier
+if query.get("riot") == ["true"]:
+    txt = Path("riot.txt")
+    if txt.exists():
+        st.write(txt.read_text())
+    else:
+        st.write("riot.txt introuvable dans le repo")
     st.stop()
 
 # --- CONFIGURATION DE LA PAGE ---
@@ -302,6 +309,7 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
 
