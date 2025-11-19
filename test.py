@@ -12,7 +12,7 @@ from pathlib import Path
 requested_url = st.request.url if hasattr(st, "request") else ""
 
 # Si quelqu'un appelle directement /riot.txt
-if requested_url.endswith("/riot.txt"):
+if requested_url.endswith("https://lol-synergies-4eijmhqwaw5aan2dj3zeao.streamlit.app/riot.txt"):
     st.markdown("<pre>e7c9e2f7-71b1-4805-b9e6-fb8fe60ef993</pre>", unsafe_allow_html=True)
     st.stop()
 
@@ -309,6 +309,7 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
 
