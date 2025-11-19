@@ -10,7 +10,7 @@ st.set_page_config(page_title="LoL Ultimate Scanner", page_icon="♾️", layout
 try:
     API_KEY = st.secrets["RIOT_API_KEY"]
 except:
-    API_KEY = "" 
+    API_KEY = "RGAPI-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" 
 
 REGION_ROUTING = "europe"
 
@@ -19,14 +19,26 @@ def make_request(url):
     while True:
         try:
             resp = requests.get(url, headers={"X-Riot-Token": API_KEY})
-            if resp.status_code == 200: return resp.json()
+            
+            if resp.status_code == 200:
+                return resp.json()
+            
             elif resp.status_code == 429:
+                # --- CORRECTION DU BUG D'AFFICHAGE ICI ---
                 wait = int(resp.headers.get("Retry-After", 10))
-                with st.empty():
-                    for i in range(wait, 0, -1):
-                        st.warning(f"⚡ Optimisation des requêtes... Reprise dans {i}s...")
-                        time.sleep(1)
+                
+                # On crée un conteneur spécifique
+                placeholder = st.empty()
+                
+                for i in range(wait, 0, -1):
+                    # On écrit dans ce conteneur
+                    placeholder.warning(f"⚡ Optimisation des requêtes (Rate Limit)... Reprise dans {i}s...")
+                    time.sleep(1)
+                
+                # IMPORTANT : On efface le conteneur une fois l'attente finie
+                placeholder.empty() 
                 continue
+            
             elif resp.status_code == 403:
                 st.error("❌ Clé API expirée."); st.stop()
             else: return None
@@ -61,7 +73,7 @@ def style_winrate(val):
 # --- INTERFACE PRINCIPALE ---
 st.title("♾️ LoL Full Season Scanner")
 
-# 1. BARRE DE RECHERCHE (Scan du joueur)
+# 1. BARRE DE RECHERCHE
 if 'df' not in st.session_state:
     st.session_state.df = None
 
@@ -111,7 +123,6 @@ if start_btn and pseudo_input:
                     role = p.get('teamPosition', 'UNKNOWN')
                     if role == "UTILITY": role = "SUPPORT"
                     
-                    # On stocke proprement
                     k = f"{p['championName']}_{role}"
                     if k not in stats: 
                         stats[k] = {'champion': p['championName'], 'role': role, 'games': 0, 'wins': 0}
@@ -129,28 +140,26 @@ if start_btn and pseudo_input:
     
     st.session_state.df = pd.DataFrame(data_list)
 
-# --- AFFICHAGE DES RÉSULTATS (Si le scan est fait) ---
+# --- AFFICHAGE DES RÉSULTATS ---
 if st.session_state.df is not None:
     df = st.session_state.df
     
     st.divider()
     st.markdown(f"### 📊 Résultats de l'analyse ({int(df['games'].sum()/4)} matchs)")
 
-    # --- FILTRES DYNAMIQUES (Sidebar) ---
+    # Filtres
     st.sidebar.header("Filtres d'affichage")
     min_games = st.sidebar.slider("Minimum de games ensemble :", 1, 20, 2)
     roles = ["Tous"] + sorted(df['role'].unique().tolist())
     sel_role = st.sidebar.selectbox("Filtrer par Rôle :", roles)
 
-    # Application filtres
     df_show = df[df['games'] >= min_games]
     if sel_role != "Tous":
         df_show = df_show[df_show['role'] == sel_role]
 
-    # --- ONGLETS ---
+    # Onglets
     tab1, tab2, tab3 = st.tabs(["🏆 Tops & Flops", "🔍 Recherche Champion", "📂 Tableau Complet"])
 
-    # ONGLET 1 : DASHBOARD
     with tab1:
         c1, c2 = st.columns(2)
         with c1:
@@ -164,7 +173,6 @@ if st.session_state.df is not None:
             st.dataframe(flop[['champion', 'role', 'games', 'winrate']], use_container_width=True, hide_index=True,
                          column_config={"winrate": st.column_config.ProgressColumn("Winrate", format="%.1f %%", min_value=0, max_value=100)})
 
-    # ONGLET 2 : RECHERCHE (C'est ici que tu peux chercher un champion !)
     with tab2:
         st.write("Tape le nom d'un champion pour voir vos stats ensemble.")
         all_champs = sorted(df['champion'].unique())
@@ -182,7 +190,6 @@ if st.session_state.df is not None:
             
             st.dataframe(res[['role', 'games', 'wins', 'losses', 'winrate']].style.applymap(style_winrate, subset=['winrate']), use_container_width=True)
 
-    # ONGLET 3 : TABLEAU COMPLET
     with tab3:
         st.dataframe(
             df_show.sort_values(by='games', ascending=False),
@@ -193,5 +200,4 @@ if st.session_state.df is not None:
                 "winrate": st.column_config.NumberColumn("WR %", format="%.1f %%")
             },
             hide_index=True
-
         )
