@@ -12,7 +12,7 @@ if st.query_params.get("riot") == ["true"]:
         st.write(txt_path.read_text())
     else:
         st.write("riot.txt introuvable")
-    st.stop(
+    st.stop()
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(
     page_title="LoL Ultimate Scanner",
@@ -304,6 +304,7 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
 
 
