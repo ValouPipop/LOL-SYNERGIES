@@ -4,11 +4,14 @@ import pandas as pd
 import time
 
 # Si l'URL contient ?riot=true, on affiche juste le code et on s'arrête.
-query_params = st.query_params
-if "riot" in query_params:
-    st.write("e7c9e2f7-71b1-4805-b9e6-fb8fe60ef993") # <--- TON CODE RIOT ICI
-    st.stop()
-# ---------------------------------
+# Si quelqu'un demande /?riot=true on affiche le fichier
+if st.query_params.get("riot") == ["true"]:
+    txt_path = Path("riot.txt")
+    if txt_path.exists():
+        st.write(txt_path.read_text())
+    else:
+        st.write("riot.txt introuvable")
+    st.stop()-----------------
 # --- CONFIGURATION DE LA PAGE ---
 st.set_page_config(
     page_title="LoL Ultimate Scanner",
@@ -300,4 +303,5 @@ or anyone officially involved in producing or managing Riot Games properties. Ri
 are trademarks or registered trademarks of Riot Games, Inc.
 </small>
 """, unsafe_allow_html=True)
+
 
