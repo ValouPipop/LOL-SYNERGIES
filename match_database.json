@@ -2960,6 +2960,27 @@
                     "role": "SUPPORT"
                 }
             ]
+        },
+        "EUW1_7617075600": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zac",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Rell",
+                    "role": "SUPPORT"
+                }
+            ]
         }
     },
     "br\u00e9silien sucr\u00e9#bra": {
