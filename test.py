@@ -3,56 +3,116 @@ import requests
 import pandas as pd
 import time
 import json
-from github import Github, GithubException # Nécessite PyGithub dans requirements.txt
+from github import Github, GithubException
 
-# --- 1. CONFIGURATION ---
-st.set_page_config(page_title="LoL Infinite Tracker", page_icon="♾️", layout="wide")
+# --- 1. CONFIGURATION DE LA PAGE & THÈME ---
+st.set_page_config(
+    page_title="LoL Synergy Pro",
+    page_icon="⚡",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
-# Récupération des secrets
+# --- 2. CSS PERSONNALISÉ (LE DESIGN) ---
+st.markdown("""
+<style>
+    /* Fond global */
+    .stApp {
+        background-color: #0e1117;
+        color: #e0e0e0;
+    }
+    
+    /* Titre Principal avec effet Gradient */
+    h1 {
+        background: -webkit-linear-gradient(45deg, #0AC8B9, #1E90FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Style des Boutons */
+    div.stButton > button {
+        background: linear-gradient(90deg, #0AC8B9 0%, #1E90FF 100%);
+        color: white;
+        border: none;
+        padding: 0.6rem 1.5rem;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(30, 144, 255, 0.4);
+    }
+    div.stButton > button:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 20px rgba(10, 200, 185, 0.6);
+        color: white;
+    }
+
+    /* Style des Metrics (Cartes de stats) */
+    div[data-testid="stMetric"] {
+        background-color: #1a1c24;
+        border: 1px solid #2d303e;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    div[data-testid="stMetricLabel"] {
+        color: #0AC8B9;
+        font-weight: bold;
+    }
+
+    /* Tabs (Onglets) */
+    button[data-baseweb="tab"] {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    /* Input field */
+    .stTextInput input {
+        background-color: #1a1c24;
+        color: white;
+        border: 1px solid #444;
+        border-radius: 8px;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# --- 3. GESTION DES CLÉS ---
+if "riot" in st.query_params:
+    st.markdown("e7c9e2f7-71b1-4805-b9e6-fb8fe60ef993")
+    st.stop()
+
 try:
     API_KEY = st.secrets["RIOT_API_KEY"]
     GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
 except:
-    st.error("❌ Les clés API (Riot ou GitHub) sont manquantes dans les Secrets.")
+    st.error("❌ Les clés API sont manquantes.")
     st.stop()
 
 REGION_ROUTING = "europe"
+REPO_NAME = "valoupipop/LOL-SYNERGIES" # ⚠️ VERIFIE BIEN CE NOM
+CACHE_FILE_PATH = "match_database.json"
 
-# Configuration GitHub pour le stockage
-REPO_NAME = "valoupipop/LOL-SYNERGIES" # ⚠️ REMPLACE PAR TON "PSEUDO/NOM-DU-REPO"
-CACHE_FILE_PATH = "match_database.json" # Le nom du fichier qui sera créé sur GitHub
-
-# --- 2. FONCTIONS GITHUB (SAUVEGARDE & CHARGEMENT) ---
+# --- 4. FONCTIONS BACKEND ---
 
 def load_data_from_github():
-    """Télécharge la base de données JSON depuis GitHub"""
     try:
         g = Github(GITHUB_TOKEN)
         repo = g.get_repo(REPO_NAME)
         contents = repo.get_contents(CACHE_FILE_PATH)
-        json_data = json.loads(contents.decoded_content.decode())
-        return json_data
+        return json.loads(contents.decoded_content.decode())
     except:
-        # Si le fichier n'existe pas encore (premier lancement), on retourne un dico vide
         return {}
 
 def save_data_to_github(new_data):
-    """Met à jour le fichier sur GitHub"""
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(REPO_NAME)
-    
-    # On convertit les données en texte JSON joli
     json_str = json.dumps(new_data, indent=4)
-    
     try:
-        # On essaie de récupérer le fichier pour avoir son ID (sha) et le mettre à jour
         contents = repo.get_contents(CACHE_FILE_PATH)
-        repo.update_file(CACHE_FILE_PATH, "Auto-update matches (Bot)", json_str, contents.sha)
+        repo.update_file(CACHE_FILE_PATH, "Auto-update (Bot)", json_str, contents.sha)
     except:
-        # Si le fichier n'existe pas, on le crée
-        repo.create_file(CACHE_FILE_PATH, "Initial create (Bot)", json_str)
-
-# --- 3. FONCTIONS RIOT API ---
+        repo.create_file(CACHE_FILE_PATH, "Init (Bot)", json_str)
 
 def make_request(url):
     while True:
@@ -63,12 +123,11 @@ def make_request(url):
                 wait = int(resp.headers.get("Retry-After", 10))
                 placeholder = st.empty()
                 for i in range(wait, 0, -1):
-                    placeholder.warning(f"⚡ Pause forcée Riot (Rate Limit)... {i}s")
+                    placeholder.warning(f"⚡ Surcharge Hextech... Refroidissement dans {i}s")
                     time.sleep(1)
                 placeholder.empty()
                 continue
-            elif resp.status_code == 403:
-                st.error("❌ Clé API expirée."); st.stop()
+            elif resp.status_code == 403: st.error("❌ Clé API Expirée"); st.stop()
             else: return None
         except: return None
 
@@ -78,7 +137,6 @@ def get_puuid(name, tag):
     return data['puuid'] if data else None
 
 def get_all_match_ids(puuid):
-    """Récupère TOUS les IDs de l'historique Ranked"""
     matches = []
     start = 0
     status = st.empty()
@@ -87,7 +145,7 @@ def get_all_match_ids(puuid):
         ids = make_request(url)
         if not ids: break
         matches.extend(ids)
-        status.write(f"📥 Vérification de l'historique... {len(matches)} matchs identifiés.")
+        status.caption(f"📥 Scan des archives... {len(matches)} matchs détectés.")
         if len(ids) < 100: break
         start += 100
     status.empty()
@@ -99,53 +157,47 @@ def style_winrate(val):
     else: color = '#f1c40f'
     return f'color: {color}; font-weight: bold;'
 
-# --- 4. INTERFACE & LOGIQUE PRINCIPALE ---
+# --- 5. INTERFACE UTILISATEUR ---
 
-st.title("♾️ LoL Persistent Tracker")
-st.markdown("Ce scanner sauvegarde tes matchs sur GitHub. Plus tu l'utilises, plus il devient précis.")
+st.title("⚡ LoL Synergy Pro")
+st.markdown("**Optimise tes Ranked grâce à la Data.** Analyse tes synergies et trouve tes meilleurs duos.")
 
-# Initialisation de la session
 if 'df' not in st.session_state: st.session_state.df = None
 
-col1, col2 = st.columns([3, 1])
-with col1:
-    pseudo_input = st.text_input("Riot ID (ex: Caps#EUW)", placeholder="Pseudo#Tag")
-with col2:
-    st.write("")
-    st.write("")
-    start_btn = st.button("🚀 Mettre à jour / Scanner", type="primary", use_container_width=True)
+# Zone de recherche stylisée
+with st.container():
+    col1, col2 = st.columns([3, 1])
+    with col1:
+        pseudo_input = st.text_input("Riot ID", placeholder="Ex: Caps#EUW", label_visibility="collapsed")
+    with col2:
+        start_btn = st.button("LANCER L'ANALYSE", use_container_width=True)
 
+# LOGIQUE DE TRAITEMENT
 if start_btn and pseudo_input:
+    if "#" not in pseudo_input:
+        st.error("Format requis : Pseudo#Tag")
+        st.stop()
+
     name, tag = pseudo_input.split("#")
     
-    with st.status("Connexion à la base de données...", expanded=True) as status:
-        
-        # 1. Charger la base de données existante depuis GitHub
+    with st.status("🔮 Connexion au Néant...", expanded=True) as status:
+        # 1. GitHub Load
         db = load_data_from_github()
-        
-        # Si le joueur n'est pas encore dans la base, on lui crée une entrée
-        player_key = f"{name}#{tag}".lower() # On utilise le pseudo comme clé principale
-        if player_key not in db:
-            db[player_key] = {} # Dictionnaire vide pour stocker ses matchs
-
+        player_key = f"{name}#{tag}".lower()
+        if player_key not in db: db[player_key] = {}
         player_matches_db = db[player_key]
-        st.write(f"📂 Matchs déjà sauvegardés : {len(player_matches_db)}")
-
-        # 2. Récupérer le PUUID et la liste des matchs actuels
+        
+        # 2. Riot Load
         puuid = get_puuid(name, tag)
-        if not puuid: st.error("Joueur introuvable"); st.stop()
+        if not puuid: status.update(label="❌ Joueur introuvable", state="error"); st.stop()
         
         all_online_ids = get_all_match_ids(puuid)
-        
-        # 3. FILTRAGE : Quels sont les matchs qu'on n'a PAS encore ?
         new_match_ids = [mid for mid in all_online_ids if mid not in player_matches_db]
         
         if not new_match_ids:
-            status.update(label="✅ Aucune nouvelle partie à analyser. Tout est à jour !", state="complete")
+            status.update(label="✅ Base de données déjà à jour !", state="complete")
         else:
-            st.info(f"🆕 {len(new_match_ids)} nouveaux matchs trouvés. Analyse en cours...")
-            
-            # 4. Boucle d'analyse (seulement sur les nouveaux)
+            st.info(f"🆕 {len(new_match_ids)} nouveaux matchs détectés. Analyse en cours...")
             bar = st.progress(0)
             total_new = len(new_match_ids)
             
@@ -155,51 +207,37 @@ if start_btn and pseudo_input:
                 bar.progress((i + 1) / total_new)
                 
                 if not details: continue
-                
                 parts = details['info']['participants']
                 try: me = next(p for p in parts if p['puuid'] == puuid)
                 except: continue
                 
-                # On prépare les données de ce match
-                match_data = {
-                    "win": me['win'],
-                    "allies": []
-                }
-                
+                match_data = {"win": me['win'], "allies": []}
                 for p in parts:
                     if p['teamId'] == me['teamId'] and p['puuid'] != puuid:
                         role = p.get('teamPosition', 'UNKNOWN')
                         if role == "UTILITY": role = "SUPPORT"
-                        match_data["allies"].append({
-                            "champion": p['championName'],
-                            "role": role
-                        })
+                        match_data["allies"].append({"champion": p['championName'], "role": role})
                 
-                # Sauvegarde dans la mémoire locale
                 player_matches_db[m_id] = match_data
 
-            # 5. Sauvegarde finale vers GitHub
-            status.write("💾 Sauvegarde des nouvelles données sur GitHub...")
-            db[player_key] = player_matches_db # On met à jour l'entrée du joueur
+            # Save to GitHub
+            status.write("💾 Sauvegarde Cloud...")
+            db[player_key] = player_matches_db
             save_data_to_github(db)
-            status.update(label="✅ Base de données mise à jour avec succès !", state="complete")
+            status.update(label="✅ Synchronisation terminée !", state="complete")
 
-    # --- CALCUL DES STATS (Sur TOUT l'historique : Ancien + Nouveau) ---
+    # Calcul Stats
     final_stats = {}
-    # On relit les données (qui sont maintenant à jour)
     current_matches = db[player_key]
-    
     for m_id, data in current_matches.items():
         win = data['win']
         for ally in data['allies']:
             k = f"{ally['champion']}_{ally['role']}"
             if k not in final_stats:
                 final_stats[k] = {'champion': ally['champion'], 'role': ally['role'], 'games': 0, 'wins': 0}
-            
             final_stats[k]['games'] += 1
             if win: final_stats[k]['wins'] += 1
 
-    # Création DataFrame
     data_list = []
     for v in final_stats.values():
         v['losses'] = v['games'] - v['wins']
@@ -208,37 +246,102 @@ if start_btn and pseudo_input:
     
     st.session_state.df = pd.DataFrame(data_list)
 
-# --- AFFICHAGE (Reste identique à la V2) ---
+# --- AFFICHAGE DASHBOARD ---
 if st.session_state.df is not None:
     df = st.session_state.df
+    total_games = int(df['games'].sum() / 4) # Approx
+    
     st.divider()
-    st.markdown(f"### 📊 Résultats Consolidés ({int(df['games'].sum()/4)} matchs analysés)")
     
-    # ... (Copie ici la partie affichage Onglets/Filtres de la version précédente) ...
-    # Je te remets l'affichage basique pour que le code soit complet :
-    
-    st.sidebar.header("Filtres")
-    min_games = st.sidebar.slider("Minimum games :", 1, 20, 2)
+    # 3 CHIFFRES CLÉS EN HAUT
+    colA, colB, colC = st.columns(3)
+    colA.metric("Matchs Analysés", total_games)
+    colB.metric("Champions Alliés Uniques", len(df))
+    # Winrate moyen (simple moyenne des winrates pour l'exemple)
+    avg_wr = round(df[df['games'] > 2]['winrate'].mean(), 1)
+    colC.metric("Winrate Moyen (Duo)", f"{avg_wr}%")
+
+    st.markdown("---")
+
+    # SIDEBAR FILTRES
+    st.sidebar.markdown("### 🎛️ Filtres")
+    min_games = st.sidebar.slider("Minimum Games", 1, 20, 2)
     roles = ["Tous"] + sorted(df['role'].unique().tolist())
-    sel_role = st.sidebar.selectbox("Rôle Allié :", roles)
+    sel_role = st.sidebar.selectbox("Rôle Allié", roles)
 
     df_show = df[df['games'] >= min_games]
     if sel_role != "Tous": df_show = df_show[df_show['role'] == sel_role]
 
-    tab1, tab2 = st.tabs(["🏆 Tops & Flops", "📂 Tableau Complet"])
+    # ONGLETS STYLISÉS
+    tab1, tab2, tab3 = st.tabs(["🏆 TOPS & FLOPS", "🔎 DÉTAIL CHAMPION", "📂 DATA EXPLORER"])
     
     with tab1:
         c1, c2 = st.columns(2)
         with c1:
-            st.caption("🔥 Meilleures Synergies")
-            st.dataframe(df_show.sort_values(by=['winrate', 'games'], ascending=[False, False]).head(10), use_container_width=True)
+            st.markdown("#### 🔥 Synergies Divines")
+            top = df_show.sort_values(by=['winrate', 'games'], ascending=[False, False]).head(10)
+            st.dataframe(
+                top,
+                column_order=("champion", "role", "games", "winrate"),
+                column_config={
+                    "winrate": st.column_config.ProgressColumn("Winrate", format="%.1f %%", min_value=0, max_value=100, help="Vert = Super Synergie"),
+                    "champion": "Champion",
+                    "role": "Poste",
+                    "games": st.column_config.NumberColumn("Parties")
+                },
+                use_container_width=True, hide_index=True
+            )
         with c2:
-            st.caption("💀 Pires Synergies")
-            st.dataframe(df_show.sort_values(by=['winrate', 'games'], ascending=[True, False]).head(10), use_container_width=True)
+            st.markdown("#### 💀 Synergies Maudites")
+            flop = df_show.sort_values(by=['winrate', 'games'], ascending=[True, False]).head(10)
+            st.dataframe(
+                flop,
+                column_order=("champion", "role", "games", "winrate"),
+                column_config={
+                    "winrate": st.column_config.ProgressColumn("Winrate", format="%.1f %%", min_value=0, max_value=100),
+                    "champion": "Champion",
+                    "role": "Poste",
+                    "games": st.column_config.NumberColumn("Parties")
+                },
+                use_container_width=True, hide_index=True
+            )
 
     with tab2:
-        st.dataframe(df_show.sort_values(by='games', ascending=False), use_container_width=True)
+        col_search, col_stats = st.columns([1, 2])
+        with col_search:
+            all_champs = sorted(df['champion'].unique())
+            search = st.selectbox("Sélectionner un champion :", all_champs)
+        
+        if search:
+            res = df[df['champion'] == search]
+            tot_g = res['games'].sum()
+            tot_w = res['wins'].sum()
+            wr = round(tot_w/tot_g*100, 1) if tot_g > 0 else 0
+            
+            with col_stats:
+                m1, m2 = st.columns(2)
+                m1.metric(f"Games avec {search}", tot_g)
+                m2.metric("Winrate Global", f"{wr}%", delta=f"{wr-50}% vs Moyenne" if wr != 50 else None)
+            
+            st.dataframe(
+                res.style.format({"winrate": "{:.1f} %"}).applymap(style_winrate, subset=['winrate']),
+                column_order=("role", "games", "wins", "losses", "winrate"),
+                use_container_width=True, hide_index=True
+            )
 
-# Disclaimer Riot
+    with tab3:
+        st.dataframe(
+            df_show.sort_values(by='games', ascending=False),
+            column_config={
+                "champion": "Champion", "role": "Rôle", 
+                "games": st.column_config.NumberColumn("Games"),
+                "wins": st.column_config.NumberColumn("W"),
+                "losses": st.column_config.NumberColumn("L"),
+                "winrate": st.column_config.NumberColumn("WR %", format="%.1f %%")
+            },
+            use_container_width=True, hide_index=True
+        )
+
+# FOOTER
 st.divider()
-st.markdown("<small style='color: gray;'>LoL Infinite Scanner isn't endorsed by Riot Games...</small>", unsafe_allow_html=True)
+st.markdown("<center><small style='color: #555;'>LoL Synergy Pro isn't endorsed by Riot Games...</small></center>", unsafe_allow_html=True)
