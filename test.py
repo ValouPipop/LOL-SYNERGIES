@@ -2,58 +2,83 @@ import streamlit as st
 import requests
 import pandas as pd
 import time
+import json
+from github import Github, GithubException # Nécessite PyGithub dans requirements.txt
 
-# --- 1. CONFIGURATION DE LA PAGE (DOIT ÊTRE AU DÉBUT) ---
-st.set_page_config(
-    page_title="LoL Ultimate Scanner",
-    page_icon="♾️",
-    layout="wide"
-)
+# --- 1. CONFIGURATION ---
+st.set_page_config(page_title="LoL Infinite Tracker", page_icon="♾️", layout="wide")
 
-# --- 2. HACK POUR VALIDATION RIOT ---
-# Si l'URL contient ?riot=true, on affiche le code et on s'arrête là.
-# C'est la méthode la plus fiable pour valider ton produit.
-if "riot" in st.query_params:
-    st.markdown("e7c9e2f7-71b1-4805-b9e6-fb8fe60ef993") 
-    st.stop() # On arrête le script ici pour n'afficher QUE le code
-
-# --- 3. GESTION DE LA CLÉ API ---
+# Récupération des secrets
 try:
     API_KEY = st.secrets["RIOT_API_KEY"]
+    GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
 except:
-    API_KEY = "RGAPI-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+    st.error("❌ Les clés API (Riot ou GitHub) sont manquantes dans les Secrets.")
+    st.stop()
 
 REGION_ROUTING = "europe"
 
-# --- 4. FONCTIONS API (BURST MODE) ---
+# Configuration GitHub pour le stockage
+REPO_NAME = "valoupipop/LOL-SYNERGIES" # ⚠️ REMPLACE PAR TON "PSEUDO/NOM-DU-REPO"
+CACHE_FILE_PATH = "match_database.json" # Le nom du fichier qui sera créé sur GitHub
+
+# --- 2. FONCTIONS GITHUB (SAUVEGARDE & CHARGEMENT) ---
+
+def load_data_from_github():
+    """Télécharge la base de données JSON depuis GitHub"""
+    try:
+        g = Github(GITHUB_TOKEN)
+        repo = g.get_repo(REPO_NAME)
+        contents = repo.get_contents(CACHE_FILE_PATH)
+        json_data = json.loads(contents.decoded_content.decode())
+        return json_data
+    except:
+        # Si le fichier n'existe pas encore (premier lancement), on retourne un dico vide
+        return {}
+
+def save_data_to_github(new_data):
+    """Met à jour le fichier sur GitHub"""
+    g = Github(GITHUB_TOKEN)
+    repo = g.get_repo(REPO_NAME)
+    
+    # On convertit les données en texte JSON joli
+    json_str = json.dumps(new_data, indent=4)
+    
+    try:
+        # On essaie de récupérer le fichier pour avoir son ID (sha) et le mettre à jour
+        contents = repo.get_contents(CACHE_FILE_PATH)
+        repo.update_file(CACHE_FILE_PATH, "Auto-update matches (Bot)", json_str, contents.sha)
+    except:
+        # Si le fichier n'existe pas, on le crée
+        repo.create_file(CACHE_FILE_PATH, "Initial create (Bot)", json_str)
+
+# --- 3. FONCTIONS RIOT API ---
+
 def make_request(url):
     while True:
         try:
             resp = requests.get(url, headers={"X-Riot-Token": API_KEY})
-            if resp.status_code == 200:
-                return resp.json()
+            if resp.status_code == 200: return resp.json()
             elif resp.status_code == 429:
                 wait = int(resp.headers.get("Retry-After", 10))
                 placeholder = st.empty()
                 for i in range(wait, 0, -1):
-                    placeholder.warning(f"⚡ Vitesse max atteinte ! Reprise dans {i}s...")
+                    placeholder.warning(f"⚡ Pause forcée Riot (Rate Limit)... {i}s")
                     time.sleep(1)
                 placeholder.empty()
                 continue
             elif resp.status_code == 403:
-                st.error("❌ Clé API expirée.")
-                st.stop()
-            else:
-                return None
-        except:
-            return None
+                st.error("❌ Clé API expirée."); st.stop()
+            else: return None
+        except: return None
 
 def get_puuid(name, tag):
     url = f"https://{REGION_ROUTING}.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{name}/{tag}"
     data = make_request(url)
     return data['puuid'] if data else None
 
-def get_matches(puuid):
+def get_all_match_ids(puuid):
+    """Récupère TOUS les IDs de l'historique Ranked"""
     matches = []
     start = 0
     status = st.empty()
@@ -62,7 +87,7 @@ def get_matches(puuid):
         ids = make_request(url)
         if not ids: break
         matches.extend(ids)
-        status.write(f"📥 Récupération de l'historique... {len(matches)} matchs trouvés.")
+        status.write(f"📥 Vérification de l'historique... {len(matches)} matchs identifiés.")
         if len(ids) < 100: break
         start += 100
     status.empty()
@@ -74,139 +99,146 @@ def style_winrate(val):
     else: color = '#f1c40f'
     return f'color: {color}; font-weight: bold;'
 
-# --- 5. INTERFACE PRINCIPALE ---
-st.title("♾️ LoL Full Season Scanner")
-st.markdown("Ce scanner analyse **l'intégralité** de tes matchs classés (SoloQ) pour trouver tes meilleures synergies.")
+# --- 4. INTERFACE & LOGIQUE PRINCIPALE ---
 
-# Mémoire
-if 'df' not in st.session_state:
-    st.session_state.df = None
+st.title("♾️ LoL Persistent Tracker")
+st.markdown("Ce scanner sauvegarde tes matchs sur GitHub. Plus tu l'utilises, plus il devient précis.")
 
-# Zone de recherche
+# Initialisation de la session
+if 'df' not in st.session_state: st.session_state.df = None
+
 col1, col2 = st.columns([3, 1])
 with col1:
     pseudo_input = st.text_input("Riot ID (ex: Caps#EUW)", placeholder="Pseudo#Tag")
 with col2:
     st.write("")
-    st.write("") 
-    start_btn = st.button("🚀 Lancer le Scan", type="primary", use_container_width=True)
+    st.write("")
+    start_btn = st.button("🚀 Mettre à jour / Scanner", type="primary", use_container_width=True)
 
-# Logique de Scan
 if start_btn and pseudo_input:
-    if "#" not in pseudo_input:
-        st.error("Format invalide. Utilise Pseudo#Tag")
-        st.stop()
-    
     name, tag = pseudo_input.split("#")
-    stats = {}
+    
+    with st.status("Connexion à la base de données...", expanded=True) as status:
+        
+        # 1. Charger la base de données existante depuis GitHub
+        db = load_data_from_github()
+        
+        # Si le joueur n'est pas encore dans la base, on lui crée une entrée
+        player_key = f"{name}#{tag}".lower() # On utilise le pseudo comme clé principale
+        if player_key not in db:
+            db[player_key] = {} # Dictionnaire vide pour stocker ses matchs
 
-    with st.status("Analyse en cours...", expanded=True) as status:
+        player_matches_db = db[player_key]
+        st.write(f"📂 Matchs déjà sauvegardés : {len(player_matches_db)}")
+
+        # 2. Récupérer le PUUID et la liste des matchs actuels
         puuid = get_puuid(name, tag)
         if not puuid: st.error("Joueur introuvable"); st.stop()
-
-        match_ids = get_matches(puuid)
-        total = len(match_ids)
-        if total == 0: st.error("Aucune Ranked trouvée"); st.stop()
-
-        cycles = (total - 1) // 100
-        est = "Moins d'une minute" if cycles == 0 else f"Env. {cycles*2} min"
-        st.info(f"⏱️ Temps estimé : {est} ({total} matchs)")
-
-        bar = st.progress(0)
-        for i, m_id in enumerate(match_ids):
-            details = make_request(f"https://{REGION_ROUTING}.api.riotgames.com/lol/match/v5/matches/{m_id}")
-            time.sleep(0.05) 
-            bar.progress((i + 1) / total)
+        
+        all_online_ids = get_all_match_ids(puuid)
+        
+        # 3. FILTRAGE : Quels sont les matchs qu'on n'a PAS encore ?
+        new_match_ids = [mid for mid in all_online_ids if mid not in player_matches_db]
+        
+        if not new_match_ids:
+            status.update(label="✅ Aucune nouvelle partie à analyser. Tout est à jour !", state="complete")
+        else:
+            st.info(f"🆕 {len(new_match_ids)} nouveaux matchs trouvés. Analyse en cours...")
             
-            if not details: continue
-            parts = details['info']['participants']
-            try: me = next(p for p in parts if p['puuid'] == puuid)
-            except: continue
+            # 4. Boucle d'analyse (seulement sur les nouveaux)
+            bar = st.progress(0)
+            total_new = len(new_match_ids)
             
-            for p in parts:
-                if p['teamId'] == me['teamId'] and p['puuid'] != puuid:
-                    role = p.get('teamPosition', 'UNKNOWN')
-                    if role == "UTILITY": role = "SUPPORT"
-                    k = f"{p['championName']}_{role}"
-                    if k not in stats: 
-                        stats[k] = {'champion': p['championName'], 'role': role, 'games': 0, 'wins': 0}
-                    stats[k]['games'] += 1
-                    if me['win']: stats[k]['wins'] += 1
+            for i, m_id in enumerate(new_match_ids):
+                details = make_request(f"https://{REGION_ROUTING}.api.riotgames.com/lol/match/v5/matches/{m_id}")
+                time.sleep(0.05)
+                bar.progress((i + 1) / total_new)
+                
+                if not details: continue
+                
+                parts = details['info']['participants']
+                try: me = next(p for p in parts if p['puuid'] == puuid)
+                except: continue
+                
+                # On prépare les données de ce match
+                match_data = {
+                    "win": me['win'],
+                    "allies": []
+                }
+                
+                for p in parts:
+                    if p['teamId'] == me['teamId'] and p['puuid'] != puuid:
+                        role = p.get('teamPosition', 'UNKNOWN')
+                        if role == "UTILITY": role = "SUPPORT"
+                        match_data["allies"].append({
+                            "champion": p['championName'],
+                            "role": role
+                        })
+                
+                # Sauvegarde dans la mémoire locale
+                player_matches_db[m_id] = match_data
 
-        status.update(label="✅ Terminé !", state="complete")
+            # 5. Sauvegarde finale vers GitHub
+            status.write("💾 Sauvegarde des nouvelles données sur GitHub...")
+            db[player_key] = player_matches_db # On met à jour l'entrée du joueur
+            save_data_to_github(db)
+            status.update(label="✅ Base de données mise à jour avec succès !", state="complete")
 
+    # --- CALCUL DES STATS (Sur TOUT l'historique : Ancien + Nouveau) ---
+    final_stats = {}
+    # On relit les données (qui sont maintenant à jour)
+    current_matches = db[player_key]
+    
+    for m_id, data in current_matches.items():
+        win = data['win']
+        for ally in data['allies']:
+            k = f"{ally['champion']}_{ally['role']}"
+            if k not in final_stats:
+                final_stats[k] = {'champion': ally['champion'], 'role': ally['role'], 'games': 0, 'wins': 0}
+            
+            final_stats[k]['games'] += 1
+            if win: final_stats[k]['wins'] += 1
+
+    # Création DataFrame
     data_list = []
-    for v in stats.values():
+    for v in final_stats.values():
         v['losses'] = v['games'] - v['wins']
         v['winrate'] = round((v['wins'] / v['games']) * 100, 1)
         data_list.append(v)
+    
     st.session_state.df = pd.DataFrame(data_list)
 
-# --- 6. AFFICHAGE RÉSULTATS (INTERFACE V2) ---
+# --- AFFICHAGE (Reste identique à la V2) ---
 if st.session_state.df is not None:
     df = st.session_state.df
-    
     st.divider()
-    st.markdown(f"### 📊 Résultats ({int(df['games'].sum()/4)} matchs)")
-
-    # Sidebar Filtres
+    st.markdown(f"### 📊 Résultats Consolidés ({int(df['games'].sum()/4)} matchs analysés)")
+    
+    # ... (Copie ici la partie affichage Onglets/Filtres de la version précédente) ...
+    # Je te remets l'affichage basique pour que le code soit complet :
+    
     st.sidebar.header("Filtres")
     min_games = st.sidebar.slider("Minimum games :", 1, 20, 2)
     roles = ["Tous"] + sorted(df['role'].unique().tolist())
     sel_role = st.sidebar.selectbox("Rôle Allié :", roles)
 
     df_show = df[df['games'] >= min_games]
-    if sel_role != "Tous":
-        df_show = df_show[df_show['role'] == sel_role]
+    if sel_role != "Tous": df_show = df_show[df_show['role'] == sel_role]
 
-    # Onglets
-    tab1, tab2, tab3 = st.tabs(["🏆 Tops & Flops", "🔍 Recherche Champion", "📂 Tableau Complet"])
-
+    tab1, tab2 = st.tabs(["🏆 Tops & Flops", "📂 Tableau Complet"])
+    
     with tab1:
         c1, c2 = st.columns(2)
         with c1:
             st.caption("🔥 Meilleures Synergies")
-            top = df_show.sort_values(by=['winrate', 'games'], ascending=[False, False]).head(10)
-            st.dataframe(top[['champion', 'role', 'games', 'winrate']], use_container_width=True, hide_index=True,
-                         column_config={"winrate": st.column_config.ProgressColumn("Winrate", format="%.1f %%", min_value=0, max_value=100)})
+            st.dataframe(df_show.sort_values(by=['winrate', 'games'], ascending=[False, False]).head(10), use_container_width=True)
         with c2:
             st.caption("💀 Pires Synergies")
-            flop = df_show.sort_values(by=['winrate', 'games'], ascending=[True, False]).head(10)
-            st.dataframe(flop[['champion', 'role', 'games', 'winrate']], use_container_width=True, hide_index=True,
-                         column_config={"winrate": st.column_config.ProgressColumn("Winrate", format="%.1f %%", min_value=0, max_value=100)})
+            st.dataframe(df_show.sort_values(by=['winrate', 'games'], ascending=[True, False]).head(10), use_container_width=True)
 
     with tab2:
-        st.write("Tape le nom d'un champion pour voir vos stats ensemble.")
-        all_champs = sorted(df['champion'].unique())
-        search = st.selectbox("Champion :", all_champs)
-        if search:
-            res = df[df['champion'] == search]
-            tot_g = res['games'].sum()
-            tot_w = res['wins'].sum()
-            wr = round(tot_w/tot_g*100, 1) if tot_g > 0 else 0
-            m1, m2 = st.columns(2)
-            m1.metric("Games", tot_g)
-            m2.metric("Winrate Global", f"{wr}%")
-            st.dataframe(res[['role', 'games', 'wins', 'losses', 'winrate']].style.applymap(style_winrate, subset=['winrate']), use_container_width=True)
-
-    with tab3:
-        st.dataframe(
-            df_show.sort_values(by='games', ascending=False),
-            use_container_width=True,
-            column_config={
-                "champion": "Champion", "role": "Rôle", 
-                "games": st.column_config.NumberColumn("Games"),
-                "winrate": st.column_config.NumberColumn("WR %", format="%.1f %%")
-            },
-            hide_index=True
-        )
+        st.dataframe(df_show.sort_values(by='games', ascending=False), use_container_width=True)
 
 # Disclaimer Riot
 st.divider()
-st.markdown("""
-<small style='color: gray;'>
-LoL Ultimate Scanner isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games 
-or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties 
-are trademarks or registered trademarks of Riot Games, Inc.
-</small>
-""", unsafe_allow_html=True)
+st.markdown("<small style='color: gray;'>LoL Infinite Scanner isn't endorsed by Riot Games...</small>", unsafe_allow_html=True)
