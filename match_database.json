@@ -2961,5 +2961,5383 @@
                 }
             ]
         }
+    },
+    "br\u00e9silien sucr\u00e9#bra": {
+        "EUW1_7616518306": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Riven",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rell",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7616443660": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Vladimir",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Qiyana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7616372119": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lillia",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Azir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7616307971": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Draven",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7606041599": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Soraka",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7605987742": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kennen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Tryndamere",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Neeko",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7604995174": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Swain",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7604624921": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7600242811": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Vayne",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Qiyana",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7600185755": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Teemo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Shaco",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7600048737": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7599988302": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Zed",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Varus",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7599463953": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Qiyana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7599397138": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7599013127": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vladimir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7598955428": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Kayle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Draven",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Neeko",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7597891456": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Zac",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Aurora",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7597834266": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Aatrox",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7597732397": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Heimerdinger",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Quinn",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7597684269": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Quinn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596856777": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Karma",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Quinn",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596751140": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rakan",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596347841": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596311427": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7596280271": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Nasus",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Anivia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596254681": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596221546": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7596181362": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lucian",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7595202355": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "MasterYi",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7593121949": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gragas",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Irelia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590301402": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Lissandra",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Amumu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590244191": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Amumu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590197902": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590144104": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590101021": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Leblanc",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Anivia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7590050876": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589950127": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "XinZhao",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7589868393": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yasuo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589704668": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Corki",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589669182": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Cassiopeia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Varus",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589475507": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589444251": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Graves",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7589400043": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Trundle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ryze",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Varus",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589357110": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Taliyah",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pantheon",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589300684": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589095781": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589045113": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Gangplank",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Anivia",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7589011629": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Irelia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Neeko",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588874844": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Tryndamere",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kalista",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588800601": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588749295": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Olaf",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Zeri",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zilean",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588641801": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588599369": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Urgot",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Heimerdinger",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588566557": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Corki",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588521632": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Heimerdinger",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588475004": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "XinZhao",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7588453654": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588336701": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Shaco",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7588314831": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Riven",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vladimir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588293158": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zoe",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588270369": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sivir",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zilean",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588179894": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "JarvanIV",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7588127343": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Chogath",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kayle",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588087730": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7588035730": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7587984649": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Naafiri",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7587912337": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Warwick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7587872868": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Trundle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7587510144": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Akali",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7587486523": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Aatrox",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Amumu",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7587050507": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yasuo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586985848": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Urgot",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586918825": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kennen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Corki",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586835777": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586761749": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "TwistedFate",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586689415": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Camille",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586651989": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586602302": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Quinn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7586553047": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7573397996": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kassadin",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7573353076": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7572500960": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7572459552": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vladimir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Blitzcrank",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7572403431": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7572354156": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7571222300": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sivir",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7571208470": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Volibear",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7570241586": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kayle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ryze",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rell",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7558417444": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7557524620": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rell",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7556339049": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Hwei",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7556024794": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Sona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7555950063": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7555112999": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Karma",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7554125430": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Aurora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7547653114": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kennen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7547633525": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kassadin",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7541707179": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Vladimir",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Jayce",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7541654598": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Quinn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Aurora",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7540172440": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "JarvanIV",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7538175134": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Nilah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Teemo",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7538136522": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "AurelionSol",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Corki",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7538097084": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7538085604": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Nasus",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7538018022": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537614443": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537581911": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Olaf",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Zeri",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pantheon",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537536573": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Tryndamere",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Pantheon",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Sona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537502502": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Aphelios",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537484067": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537442878": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Smolder",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Aphelios",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rakan",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7537232596": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yasuo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "TwistedFate",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Kennen",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7536571862": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Quinn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Rammus",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7536398860": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535749636": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Warwick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Hwei",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535716590": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Warwick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535661309": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "TwistedFate",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535606786": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Neeko",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535101254": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Rumble",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535061997": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7535009775": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7534584049": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7533970633": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7533930990": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Anivia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7533899134": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7532721228": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gangplank",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Yuumi",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7532698795": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Vladimir",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Soraka",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7530715005": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Hecarim",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Aphelios",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7530520124": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "FiddleSticks",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Sona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7525268166": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vladimir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7524748105": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Brand",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7524279877": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7524210129": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523956225": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523725208": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Maokai",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523632208": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "MasterYi",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523504785": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Alistar",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523471063": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Aatrox",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Blitzcrank",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523421675": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zoe",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523368299": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Kennen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Irelia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rakan",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523252324": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kayle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Yunara",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zilean",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7523007715": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ivern",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "AurelionSol",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7522970251": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zilean",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7522921141": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Chogath",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7522859775": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Maokai",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7522451167": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Alistar",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7522412340": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Urgot",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Aphelios",
+                    "role": ""
+                },
+                {
+                    "champion": "Zoe",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7522360237": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kayle",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sivir",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Shaco",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7521906115": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7520839883": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Naafiri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Nilah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7520773531": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lucian",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rakan",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7520570306": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Volibear",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Naafiri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7520525030": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Aphelios",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Soraka",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7519957975": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Irelia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7519939180": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Cassiopeia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7518901150": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Azir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7518848973": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7517925572": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Chogath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7517886053": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7517481588": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Yuumi",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516984989": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lissandra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516964636": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Nilah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Soraka",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516935892": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516923923": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Corki",
+                    "role": ""
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516504939": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Illaoi",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7516135669": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Rumble",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7385680750": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7381187992": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Aurora",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7381144758": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "AurelionSol",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7381101438": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Aatrox",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7377824455": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Teemo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7377756373": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Volibear",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7356245210": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Gangplank",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7343690991": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Mel",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7343633302": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Poppy",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7328250853": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Gragas",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7328223502": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7322845675": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sett",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Kassadin",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7322341924": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Poppy",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7322300831": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Cassiopeia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Blitzcrank",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7322262581": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7322042308": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gnar",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Leblanc",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Zilean",
+                    "role": "SUPPORT"
+                },
+                {
+                    "champion": "Sion",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7321992447": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sion",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321977245": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321935455": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Akali",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321928381": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Warwick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Orianna",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Varus",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pantheon",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321909635": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Trundle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321641005": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Hwei",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321324072": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321278036": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "TahmKench",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kayle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321224849": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7321191257": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Poppy",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Fizz",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "TahmKench",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7259808517": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7259750912": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Kassadin",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nautilus",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7259707143": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Pantheon",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sivir",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7259665010": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ornn",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7259615291": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Teemo",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Sivir",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7259585183": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yorick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Warwick",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Diana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7259062128": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Kayle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "XinZhao",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Akali",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7259000359": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Gragas",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Karma",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7258942047": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zac",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7258869961": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Urgot",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Azir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7258568544": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gwen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Morgana",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7258457639": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Cassiopeia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Twitch",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7257638033": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "TahmKench",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7257397924": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Zed",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zyra",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256489727": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Trundle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Gragas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256419050": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Illaoi",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Irelia",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "JarvanIV",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256281328": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viego",
+                    "role": "JUNGLE"
+                },
+                {
+                    "champion": "Hwei",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                }
+            ]
+        },
+        "EUW1_7256220542": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Annie",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256152281": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Vladimir",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ziggs",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Leona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256118009": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Jax",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lucian",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Braum",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7256067747": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Singed",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Brand",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "TahmKench",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7254821264": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Shen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Maokai",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7254003016": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Garen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7204923535": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Nasus",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Malphite",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7204863395": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Yone",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Bard",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7204806839": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Teemo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7204714834": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Darius",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Tristana",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7203364276": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Samira",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Taric",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7203299546": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Gwen",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199872993": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Aatrox",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Varus",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Poppy",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199794201": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Aurora",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Draven",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Zac",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199780973": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Sona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199712393": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Trundle",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199558430": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Renekton",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Viktor",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7199441608": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Vayne",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7196736284": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Fiora",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "AurelionSol",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Rakan",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7196656479": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Riven",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Blitzcrank",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7195390573": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gangplank",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7195302849": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Nasus",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Sona",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7195230432": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7195174242": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Volibear",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Kaisa",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7195063262": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sylas",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Gragas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7189281598": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Akali",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Yuumi",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7187857375": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Karma",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ekko",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7186662833": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Nasus",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Syndra",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Vayne",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7186612345": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Smolder",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Xerath",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7186428778": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Teemo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ezreal",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Nami",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7186371763": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Teemo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Akshan",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lissandra",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7185790347": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Sylas",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Karma",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7185757337": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Camille",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "KogMaw",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Pyke",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7184569804": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Hwei",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "MissFortune",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Seraphine",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7184499282": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Warwick",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Zeri",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Milio",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7182564182": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Irelia",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Malzahar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Velkoz",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7182275875": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Mordekaiser",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Naafiri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Thresh",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7181810412": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Malphite",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Brand",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7181758190": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Illaoi",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Xayah",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7181696065": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Teemo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Ahri",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Ashe",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Karma",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7181634111": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Olaf",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Veigar",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Janna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7181563737": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Swain",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Galio",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jinx",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7180980421": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "DrMundo",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yone",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lucian",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Soraka",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7180918252": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Tryndamere",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Smolder",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lulu",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7180851567": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Sion",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Nunu",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Jhin",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Senna",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7180801706": {
+            "win": true,
+            "allies": [
+                {
+                    "champion": "Gnar",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Katarina",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Swain",
+                    "role": "SUPPORT"
+                }
+            ]
+        },
+        "EUW1_7180731014": {
+            "win": false,
+            "allies": [
+                {
+                    "champion": "Ambessa",
+                    "role": "TOP"
+                },
+                {
+                    "champion": "Yasuo",
+                    "role": "MIDDLE"
+                },
+                {
+                    "champion": "Caitlyn",
+                    "role": "BOTTOM"
+                },
+                {
+                    "champion": "Lux",
+                    "role": "SUPPORT"
+                }
+            ]
+        }
     }
 }
