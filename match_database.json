@@ -8359,6 +8359,1359 @@
                     "role": "SUPPORT"
                 }
             ]
+        },
+        "last_match_id": "EUW1_7617505530",
+        "stats": {
+            "Ambessa_TOP": {
+                "champion": "Ambessa",
+                "role": "TOP",
+                "games": 6,
+                "wins": 1
+            },
+            "Yasuo_MIDDLE": {
+                "champion": "Yasuo",
+                "role": "MIDDLE",
+                "games": 9,
+                "wins": 5
+            },
+            "Caitlyn_BOTTOM": {
+                "champion": "Caitlyn",
+                "role": "BOTTOM",
+                "games": 27,
+                "wins": 14
+            },
+            "Lux_SUPPORT": {
+                "champion": "Lux",
+                "role": "SUPPORT",
+                "games": 7,
+                "wins": 2
+            },
+            "Gnar_TOP": {
+                "champion": "Gnar",
+                "role": "TOP",
+                "games": 2,
+                "wins": 2
+            },
+            "Katarina_MIDDLE": {
+                "champion": "Katarina",
+                "role": "MIDDLE",
+                "games": 9,
+                "wins": 5
+            },
+            "Lux_BOTTOM": {
+                "champion": "Lux",
+                "role": "BOTTOM",
+                "games": 2,
+                "wins": 1
+            },
+            "Swain_SUPPORT": {
+                "champion": "Swain",
+                "role": "SUPPORT",
+                "games": 5,
+                "wins": 3
+            },
+            "Sion_TOP": {
+                "champion": "Sion",
+                "role": "TOP",
+                "games": 9,
+                "wins": 5
+            },
+            "Nunu_MIDDLE": {
+                "champion": "Nunu",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Jhin_BOTTOM": {
+                "champion": "Jhin",
+                "role": "BOTTOM",
+                "games": 16,
+                "wins": 10
+            },
+            "Senna_SUPPORT": {
+                "champion": "Senna",
+                "role": "SUPPORT",
+                "games": 9,
+                "wins": 7
+            },
+            "Tryndamere_TOP": {
+                "champion": "Tryndamere",
+                "role": "TOP",
+                "games": 3,
+                "wins": 3
+            },
+            "Smolder_MIDDLE": {
+                "champion": "Smolder",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 2
+            },
+            "Lulu_SUPPORT": {
+                "champion": "Lulu",
+                "role": "SUPPORT",
+                "games": 9,
+                "wins": 8
+            },
+            "DrMundo_TOP": {
+                "champion": "DrMundo",
+                "role": "TOP",
+                "games": 12,
+                "wins": 7
+            },
+            "Yone_MIDDLE": {
+                "champion": "Yone",
+                "role": "MIDDLE",
+                "games": 8,
+                "wins": 5
+            },
+            "Lucian_BOTTOM": {
+                "champion": "Lucian",
+                "role": "BOTTOM",
+                "games": 4,
+                "wins": 3
+            },
+            "Soraka_SUPPORT": {
+                "champion": "Soraka",
+                "role": "SUPPORT",
+                "games": 5,
+                "wins": 4
+            },
+            "Swain_TOP": {
+                "champion": "Swain",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Galio_MIDDLE": {
+                "champion": "Galio",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Jinx_BOTTOM": {
+                "champion": "Jinx",
+                "role": "BOTTOM",
+                "games": 27,
+                "wins": 9
+            },
+            "Olaf_TOP": {
+                "champion": "Olaf",
+                "role": "TOP",
+                "games": 3,
+                "wins": 1
+            },
+            "Veigar_MIDDLE": {
+                "champion": "Veigar",
+                "role": "MIDDLE",
+                "games": 6,
+                "wins": 4
+            },
+            "Janna_SUPPORT": {
+                "champion": "Janna",
+                "role": "SUPPORT",
+                "games": 9,
+                "wins": 3
+            },
+            "Teemo_TOP": {
+                "champion": "Teemo",
+                "role": "TOP",
+                "games": 5,
+                "wins": 1
+            },
+            "Ahri_MIDDLE": {
+                "champion": "Ahri",
+                "role": "MIDDLE",
+                "games": 12,
+                "wins": 5
+            },
+            "Ashe_BOTTOM": {
+                "champion": "Ashe",
+                "role": "BOTTOM",
+                "games": 20,
+                "wins": 10
+            },
+            "Karma_SUPPORT": {
+                "champion": "Karma",
+                "role": "SUPPORT",
+                "games": 3,
+                "wins": 2
+            },
+            "Illaoi_TOP": {
+                "champion": "Illaoi",
+                "role": "TOP",
+                "games": 3,
+                "wins": 2
+            },
+            "Xayah_BOTTOM": {
+                "champion": "Xayah",
+                "role": "BOTTOM",
+                "games": 6,
+                "wins": 4
+            },
+            "Malphite_TOP": {
+                "champion": "Malphite",
+                "role": "TOP",
+                "games": 11,
+                "wins": 4
+            },
+            "Lux_MIDDLE": {
+                "champion": "Lux",
+                "role": "MIDDLE",
+                "games": 9,
+                "wins": 4
+            },
+            "Brand_SUPPORT": {
+                "champion": "Brand",
+                "role": "SUPPORT",
+                "games": 2,
+                "wins": 2
+            },
+            "Mordekaiser_TOP": {
+                "champion": "Mordekaiser",
+                "role": "TOP",
+                "games": 11,
+                "wins": 6
+            },
+            "Naafiri_MIDDLE": {
+                "champion": "Naafiri",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 2
+            },
+            "Thresh_SUPPORT": {
+                "champion": "Thresh",
+                "role": "SUPPORT",
+                "games": 16,
+                "wins": 6
+            },
+            "Irelia_TOP": {
+                "champion": "Irelia",
+                "role": "TOP",
+                "games": 2,
+                "wins": 0
+            },
+            "Malzahar_MIDDLE": {
+                "champion": "Malzahar",
+                "role": "MIDDLE",
+                "games": 20,
+                "wins": 9
+            },
+            "Velkoz_SUPPORT": {
+                "champion": "Velkoz",
+                "role": "SUPPORT",
+                "games": 7,
+                "wins": 2
+            },
+            "Warwick_TOP": {
+                "champion": "Warwick",
+                "role": "TOP",
+                "games": 5,
+                "wins": 1
+            },
+            "Zeri_BOTTOM": {
+                "champion": "Zeri",
+                "role": "BOTTOM",
+                "games": 3,
+                "wins": 1
+            },
+            "Milio_SUPPORT": {
+                "champion": "Milio",
+                "role": "SUPPORT",
+                "games": 12,
+                "wins": 6
+            },
+            "Hwei_MIDDLE": {
+                "champion": "Hwei",
+                "role": "MIDDLE",
+                "games": 5,
+                "wins": 2
+            },
+            "MissFortune_BOTTOM": {
+                "champion": "MissFortune",
+                "role": "BOTTOM",
+                "games": 12,
+                "wins": 5
+            },
+            "Seraphine_SUPPORT": {
+                "champion": "Seraphine",
+                "role": "SUPPORT",
+                "games": 7,
+                "wins": 2
+            },
+            "Camille_TOP": {
+                "champion": "Camille",
+                "role": "TOP",
+                "games": 6,
+                "wins": 4
+            },
+            "KogMaw_BOTTOM": {
+                "champion": "KogMaw",
+                "role": "BOTTOM",
+                "games": 6,
+                "wins": 3
+            },
+            "Pyke_SUPPORT": {
+                "champion": "Pyke",
+                "role": "SUPPORT",
+                "games": 6,
+                "wins": 4
+            },
+            "Sylas_MIDDLE": {
+                "champion": "Sylas",
+                "role": "MIDDLE",
+                "games": 14,
+                "wins": 6
+            },
+            "Akshan_MIDDLE": {
+                "champion": "Akshan",
+                "role": "MIDDLE",
+                "games": 7,
+                "wins": 2
+            },
+            "Lissandra_BOTTOM": {
+                "champion": "Lissandra",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "Ezreal_BOTTOM": {
+                "champion": "Ezreal",
+                "role": "BOTTOM",
+                "games": 19,
+                "wins": 8
+            },
+            "Nami_SUPPORT": {
+                "champion": "Nami",
+                "role": "SUPPORT",
+                "games": 6,
+                "wins": 2
+            },
+            "Smolder_TOP": {
+                "champion": "Smolder",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Xerath_MIDDLE": {
+                "champion": "Xerath",
+                "role": "MIDDLE",
+                "games": 5,
+                "wins": 3
+            },
+            "Nasus_TOP": {
+                "champion": "Nasus",
+                "role": "TOP",
+                "games": 5,
+                "wins": 2
+            },
+            "Syndra_MIDDLE": {
+                "champion": "Syndra",
+                "role": "MIDDLE",
+                "games": 13,
+                "wins": 9
+            },
+            "Vayne_BOTTOM": {
+                "champion": "Vayne",
+                "role": "BOTTOM",
+                "games": 13,
+                "wins": 7
+            },
+            "Karma_TOP": {
+                "champion": "Karma",
+                "role": "TOP",
+                "games": 2,
+                "wins": 2
+            },
+            "Ekko_MIDDLE": {
+                "champion": "Ekko",
+                "role": "MIDDLE",
+                "games": 11,
+                "wins": 6
+            },
+            "Akali_TOP": {
+                "champion": "Akali",
+                "role": "TOP",
+                "games": 3,
+                "wins": 2
+            },
+            "Yuumi_SUPPORT": {
+                "champion": "Yuumi",
+                "role": "SUPPORT",
+                "games": 3,
+                "wins": 2
+            },
+            "Sylas_TOP": {
+                "champion": "Sylas",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Gragas_MIDDLE": {
+                "champion": "Gragas",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 2
+            },
+            "Volibear_TOP": {
+                "champion": "Volibear",
+                "role": "TOP",
+                "games": 4,
+                "wins": 2
+            },
+            "Kaisa_BOTTOM": {
+                "champion": "Kaisa",
+                "role": "BOTTOM",
+                "games": 17,
+                "wins": 8
+            },
+            "Sona_SUPPORT": {
+                "champion": "Sona",
+                "role": "SUPPORT",
+                "games": 5,
+                "wins": 4
+            },
+            "Gangplank_TOP": {
+                "champion": "Gangplank",
+                "role": "TOP",
+                "games": 4,
+                "wins": 2
+            },
+            "Riven_TOP": {
+                "champion": "Riven",
+                "role": "TOP",
+                "games": 3,
+                "wins": 2
+            },
+            "Swain_BOTTOM": {
+                "champion": "Swain",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "Blitzcrank_SUPPORT": {
+                "champion": "Blitzcrank",
+                "role": "SUPPORT",
+                "games": 4,
+                "wins": 0
+            },
+            "Fiora_TOP": {
+                "champion": "Fiora",
+                "role": "TOP",
+                "games": 7,
+                "wins": 1
+            },
+            "AurelionSol_MIDDLE": {
+                "champion": "AurelionSol",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 1
+            },
+            "Smolder_BOTTOM": {
+                "champion": "Smolder",
+                "role": "BOTTOM",
+                "games": 9,
+                "wins": 6
+            },
+            "Rakan_SUPPORT": {
+                "champion": "Rakan",
+                "role": "SUPPORT",
+                "games": 5,
+                "wins": 2
+            },
+            "Vayne_TOP": {
+                "champion": "Vayne",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Renekton_TOP": {
+                "champion": "Renekton",
+                "role": "TOP",
+                "games": 6,
+                "wins": 1
+            },
+            "Viktor_MIDDLE": {
+                "champion": "Viktor",
+                "role": "MIDDLE",
+                "games": 7,
+                "wins": 2
+            },
+            "Trundle_TOP": {
+                "champion": "Trundle",
+                "role": "TOP",
+                "games": 5,
+                "wins": 3
+            },
+            "Xerath_SUPPORT": {
+                "champion": "Xerath",
+                "role": "SUPPORT",
+                "games": 9,
+                "wins": 5
+            },
+            "Aurora_MIDDLE": {
+                "champion": "Aurora",
+                "role": "MIDDLE",
+                "games": 4,
+                "wins": 1
+            },
+            "Draven_BOTTOM": {
+                "champion": "Draven",
+                "role": "BOTTOM",
+                "games": 2,
+                "wins": 0
+            },
+            "Zac_SUPPORT": {
+                "champion": "Zac",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Aatrox_TOP": {
+                "champion": "Aatrox",
+                "role": "TOP",
+                "games": 5,
+                "wins": 2
+            },
+            "Varus_BOTTOM": {
+                "champion": "Varus",
+                "role": "BOTTOM",
+                "games": 5,
+                "wins": 1
+            },
+            "Poppy_SUPPORT": {
+                "champion": "Poppy",
+                "role": "SUPPORT",
+                "games": 3,
+                "wins": 1
+            },
+            "Gwen_TOP": {
+                "champion": "Gwen",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Samira_BOTTOM": {
+                "champion": "Samira",
+                "role": "BOTTOM",
+                "games": 9,
+                "wins": 5
+            },
+            "Taric_SUPPORT": {
+                "champion": "Taric",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Darius_TOP": {
+                "champion": "Darius",
+                "role": "TOP",
+                "games": 15,
+                "wins": 8
+            },
+            "Tristana_BOTTOM": {
+                "champion": "Tristana",
+                "role": "BOTTOM",
+                "games": 5,
+                "wins": 3
+            },
+            "Teemo_MIDDLE": {
+                "champion": "Teemo",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Yone_TOP": {
+                "champion": "Yone",
+                "role": "TOP",
+                "games": 7,
+                "wins": 1
+            },
+            "Bard_SUPPORT": {
+                "champion": "Bard",
+                "role": "SUPPORT",
+                "games": 8,
+                "wins": 3
+            },
+            "Malphite_SUPPORT": {
+                "champion": "Malphite",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Garen_TOP": {
+                "champion": "Garen",
+                "role": "TOP",
+                "games": 13,
+                "wins": 8
+            },
+            "Shen_TOP": {
+                "champion": "Shen",
+                "role": "TOP",
+                "games": 7,
+                "wins": 5
+            },
+            "Maokai_SUPPORT": {
+                "champion": "Maokai",
+                "role": "SUPPORT",
+                "games": 3,
+                "wins": 2
+            },
+            "Singed_TOP": {
+                "champion": "Singed",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Brand_MIDDLE": {
+                "champion": "Brand",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "TahmKench_SUPPORT": {
+                "champion": "TahmKench",
+                "role": "SUPPORT",
+                "games": 2,
+                "wins": 1
+            },
+            "Jax_TOP": {
+                "champion": "Jax",
+                "role": "TOP",
+                "games": 5,
+                "wins": 3
+            },
+            "Braum_SUPPORT": {
+                "champion": "Braum",
+                "role": "SUPPORT",
+                "games": 6,
+                "wins": 4
+            },
+            "Vladimir_MIDDLE": {
+                "champion": "Vladimir",
+                "role": "MIDDLE",
+                "games": 5,
+                "wins": 3
+            },
+            "Ziggs_BOTTOM": {
+                "champion": "Ziggs",
+                "role": "BOTTOM",
+                "games": 7,
+                "wins": 4
+            },
+            "Leona_SUPPORT": {
+                "champion": "Leona",
+                "role": "SUPPORT",
+                "games": 8,
+                "wins": 2
+            },
+            "Annie_SUPPORT": {
+                "champion": "Annie",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Viego_JUNGLE": {
+                "champion": "Viego",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Irelia_MIDDLE": {
+                "champion": "Irelia",
+                "role": "MIDDLE",
+                "games": 4,
+                "wins": 2
+            },
+            "Viktor_BOTTOM": {
+                "champion": "Viktor",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "JarvanIV_SUPPORT": {
+                "champion": "JarvanIV",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Zed_MIDDLE": {
+                "champion": "Zed",
+                "role": "MIDDLE",
+                "games": 8,
+                "wins": 6
+            },
+            "Zyra_SUPPORT": {
+                "champion": "Zyra",
+                "role": "SUPPORT",
+                "games": 8,
+                "wins": 3
+            },
+            "TahmKench_TOP": {
+                "champion": "TahmKench",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Cassiopeia_TOP": {
+                "champion": "Cassiopeia",
+                "role": "TOP",
+                "games": 4,
+                "wins": 3
+            },
+            "Twitch_BOTTOM": {
+                "champion": "Twitch",
+                "role": "BOTTOM",
+                "games": 9,
+                "wins": 4
+            },
+            "Morgana_MIDDLE": {
+                "champion": "Morgana",
+                "role": "MIDDLE",
+                "games": 4,
+                "wins": 1
+            },
+            "Urgot_TOP": {
+                "champion": "Urgot",
+                "role": "TOP",
+                "games": 4,
+                "wins": 0
+            },
+            "Azir_MIDDLE": {
+                "champion": "Azir",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 1
+            },
+            "Zac_JUNGLE": {
+                "champion": "Zac",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Gragas_JUNGLE": {
+                "champion": "Gragas",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Karma_MIDDLE": {
+                "champion": "Karma",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Kayle_TOP": {
+                "champion": "Kayle",
+                "role": "TOP",
+                "games": 5,
+                "wins": 4
+            },
+            "XinZhao_JUNGLE": {
+                "champion": "XinZhao",
+                "role": "JUNGLE",
+                "games": 3,
+                "wins": 1
+            },
+            "Akali_MIDDLE": {
+                "champion": "Akali",
+                "role": "MIDDLE",
+                "games": 8,
+                "wins": 3
+            },
+            "Yorick_TOP": {
+                "champion": "Yorick",
+                "role": "TOP",
+                "games": 6,
+                "wins": 4
+            },
+            "Warwick_JUNGLE": {
+                "champion": "Warwick",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Diana_MIDDLE": {
+                "champion": "Diana",
+                "role": "MIDDLE",
+                "games": 6,
+                "wins": 3
+            },
+            "Teemo_JUNGLE": {
+                "champion": "Teemo",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Sivir_BOTTOM": {
+                "champion": "Sivir",
+                "role": "BOTTOM",
+                "games": 5,
+                "wins": 1
+            },
+            "Ornn_TOP": {
+                "champion": "Ornn",
+                "role": "TOP",
+                "games": 9,
+                "wins": 3
+            },
+            "Pantheon_MIDDLE": {
+                "champion": "Pantheon",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Kassadin_MIDDLE": {
+                "champion": "Kassadin",
+                "role": "MIDDLE",
+                "games": 4,
+                "wins": 1
+            },
+            "Nautilus_SUPPORT": {
+                "champion": "Nautilus",
+                "role": "SUPPORT",
+                "games": 9,
+                "wins": 3
+            },
+            "Poppy_TOP": {
+                "champion": "Poppy",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Fizz_MIDDLE": {
+                "champion": "Fizz",
+                "role": "MIDDLE",
+                "games": 7,
+                "wins": 5
+            },
+            "TahmKench_MIDDLE": {
+                "champion": "TahmKench",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Morgana_SUPPORT": {
+                "champion": "Morgana",
+                "role": "SUPPORT",
+                "games": 13,
+                "wins": 7
+            },
+            "Orianna_MIDDLE": {
+                "champion": "Orianna",
+                "role": "MIDDLE",
+                "games": 12,
+                "wins": 4
+            },
+            "Pantheon_SUPPORT": {
+                "champion": "Pantheon",
+                "role": "SUPPORT",
+                "games": 4,
+                "wins": 1
+            },
+            "Sion_BOTTOM": {
+                "champion": "Sion",
+                "role": "BOTTOM",
+                "games": 2,
+                "wins": 2
+            },
+            "Leblanc_MIDDLE": {
+                "champion": "Leblanc",
+                "role": "MIDDLE",
+                "games": 6,
+                "wins": 2
+            },
+            "Zilean_SUPPORT": {
+                "champion": "Zilean",
+                "role": "SUPPORT",
+                "games": 5,
+                "wins": 4
+            },
+            "Tristana_MIDDLE": {
+                "champion": "Tristana",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Katarina_BOTTOM": {
+                "champion": "Katarina",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "Sett_TOP": {
+                "champion": "Sett",
+                "role": "TOP",
+                "games": 12,
+                "wins": 5
+            },
+            "Gragas_TOP": {
+                "champion": "Gragas",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Mel_MIDDLE": {
+                "champion": "Mel",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 2
+            },
+            "Mel_BOTTOM": {
+                "champion": "Mel",
+                "role": "BOTTOM",
+                "games": 3,
+                "wins": 2
+            },
+            "AurelionSol_BOTTOM": {
+                "champion": "AurelionSol",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "KogMaw_SUPPORT": {
+                "champion": "KogMaw",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Caitlyn_MIDDLE": {
+                "champion": "Caitlyn",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Rumble_TOP": {
+                "champion": "Rumble",
+                "role": "TOP",
+                "games": 2,
+                "wins": 2
+            },
+            "Corki_": {
+                "champion": "Corki",
+                "role": "",
+                "games": 1,
+                "wins": 0
+            },
+            "Nilah_BOTTOM": {
+                "champion": "Nilah",
+                "role": "BOTTOM",
+                "games": 3,
+                "wins": 3
+            },
+            "Lissandra_MIDDLE": {
+                "champion": "Lissandra",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 2
+            },
+            "Senna_BOTTOM": {
+                "champion": "Senna",
+                "role": "BOTTOM",
+                "games": 3,
+                "wins": 3
+            },
+            "Chogath_MIDDLE": {
+                "champion": "Chogath",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Ziggs_SUPPORT": {
+                "champion": "Ziggs",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Aphelios_BOTTOM": {
+                "champion": "Aphelios",
+                "role": "BOTTOM",
+                "games": 4,
+                "wins": 2
+            },
+            "Kayle_MIDDLE": {
+                "champion": "Kayle",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 0
+            },
+            "Shaco_SUPPORT": {
+                "champion": "Shaco",
+                "role": "SUPPORT",
+                "games": 2,
+                "wins": 1
+            },
+            "Aphelios_": {
+                "champion": "Aphelios",
+                "role": "",
+                "games": 1,
+                "wins": 0
+            },
+            "Zoe_BOTTOM": {
+                "champion": "Zoe",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 0
+            },
+            "Alistar_TOP": {
+                "champion": "Alistar",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Chogath_TOP": {
+                "champion": "Chogath",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Ashe_SUPPORT": {
+                "champion": "Ashe",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Ivern_TOP": {
+                "champion": "Ivern",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Yunara_BOTTOM": {
+                "champion": "Yunara",
+                "role": "BOTTOM",
+                "games": 8,
+                "wins": 5
+            },
+            "Kennen_TOP": {
+                "champion": "Kennen",
+                "role": "TOP",
+                "games": 4,
+                "wins": 3
+            },
+            "Zoe_MIDDLE": {
+                "champion": "Zoe",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Alistar_SUPPORT": {
+                "champion": "Alistar",
+                "role": "SUPPORT",
+                "games": 6,
+                "wins": 5
+            },
+            "MasterYi_TOP": {
+                "champion": "MasterYi",
+                "role": "TOP",
+                "games": 2,
+                "wins": 2
+            },
+            "Velkoz_MIDDLE": {
+                "champion": "Velkoz",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 2
+            },
+            "Mel_SUPPORT": {
+                "champion": "Mel",
+                "role": "SUPPORT",
+                "games": 8,
+                "wins": 4
+            },
+            "FiddleSticks_TOP": {
+                "champion": "FiddleSticks",
+                "role": "TOP",
+                "games": 2,
+                "wins": 2
+            },
+            "Hecarim_TOP": {
+                "champion": "Hecarim",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Vladimir_TOP": {
+                "champion": "Vladimir",
+                "role": "TOP",
+                "games": 3,
+                "wins": 1
+            },
+            "Anivia_MIDDLE": {
+                "champion": "Anivia",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 0
+            },
+            "Neeko_SUPPORT": {
+                "champion": "Neeko",
+                "role": "SUPPORT",
+                "games": 4,
+                "wins": 1
+            },
+            "TwistedFate_MIDDLE": {
+                "champion": "TwistedFate",
+                "role": "MIDDLE",
+                "games": 3,
+                "wins": 3
+            },
+            "Quinn_TOP": {
+                "champion": "Quinn",
+                "role": "TOP",
+                "games": 4,
+                "wins": 0
+            },
+            "Rammus_JUNGLE": {
+                "champion": "Rammus",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Yasuo_TOP": {
+                "champion": "Yasuo",
+                "role": "TOP",
+                "games": 3,
+                "wins": 2
+            },
+            "Kennen_SUPPORT": {
+                "champion": "Kennen",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Corki_BOTTOM": {
+                "champion": "Corki",
+                "role": "BOTTOM",
+                "games": 4,
+                "wins": 3
+            },
+            "Teemo_SUPPORT": {
+                "champion": "Teemo",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "JarvanIV_JUNGLE": {
+                "champion": "JarvanIV",
+                "role": "JUNGLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Jayce_MIDDLE": {
+                "champion": "Jayce",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Aurora_TOP": {
+                "champion": "Aurora",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Rell_SUPPORT": {
+                "champion": "Rell",
+                "role": "SUPPORT",
+                "games": 3,
+                "wins": 3
+            },
+            "Ryze_MIDDLE": {
+                "champion": "Ryze",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Veigar_SUPPORT": {
+                "champion": "Veigar",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Camille_SUPPORT": {
+                "champion": "Camille",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Amumu_JUNGLE": {
+                "champion": "Amumu",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Naafiri_TOP": {
+                "champion": "Naafiri",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Ahri_SUPPORT": {
+                "champion": "Ahri",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 1
+            },
+            "Shaco_JUNGLE": {
+                "champion": "Shaco",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Heimerdinger_TOP": {
+                "champion": "Heimerdinger",
+                "role": "TOP",
+                "games": 2,
+                "wins": 1
+            },
+            "Heimerdinger_SUPPORT": {
+                "champion": "Heimerdinger",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Kalista_BOTTOM": {
+                "champion": "Kalista",
+                "role": "BOTTOM",
+                "games": 1,
+                "wins": 1
+            },
+            "Anivia_SUPPORT": {
+                "champion": "Anivia",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Taliyah_MIDDLE": {
+                "champion": "Taliyah",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Graves_JUNGLE": {
+                "champion": "Graves",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Kaisa_MIDDLE": {
+                "champion": "Kaisa",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Jax_MIDDLE": {
+                "champion": "Jax",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Malzahar_TOP": {
+                "champion": "Malzahar",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Leblanc_TOP": {
+                "champion": "Leblanc",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Amumu_SUPPORT": {
+                "champion": "Amumu",
+                "role": "SUPPORT",
+                "games": 2,
+                "wins": 2
+            },
+            "Lissandra_TOP": {
+                "champion": "Lissandra",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Ekko_JUNGLE": {
+                "champion": "Ekko",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Quinn_MIDDLE": {
+                "champion": "Quinn",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Twitch_SUPPORT": {
+                "champion": "Twitch",
+                "role": "SUPPORT",
+                "games": 1,
+                "wins": 0
+            },
+            "Zac_TOP": {
+                "champion": "Zac",
+                "role": "TOP",
+                "games": 1,
+                "wins": 1
+            },
+            "Draven_MIDDLE": {
+                "champion": "Draven",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Qiyana_MIDDLE": {
+                "champion": "Qiyana",
+                "role": "MIDDLE",
+                "games": 2,
+                "wins": 1
+            },
+            "Zed_TOP": {
+                "champion": "Zed",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Ziggs_MIDDLE": {
+                "champion": "Ziggs",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Qiyana_JUNGLE": {
+                "champion": "Qiyana",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Tryndamere_MIDDLE": {
+                "champion": "Tryndamere",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 1
+            },
+            "Diana_JUNGLE": {
+                "champion": "Diana",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 0
+            },
+            "Lillia_JUNGLE": {
+                "champion": "Lillia",
+                "role": "JUNGLE",
+                "games": 1,
+                "wins": 1
+            },
+            "KSante_TOP": {
+                "champion": "KSante",
+                "role": "TOP",
+                "games": 1,
+                "wins": 0
+            },
+            "Neeko_MIDDLE": {
+                "champion": "Neeko",
+                "role": "MIDDLE",
+                "games": 1,
+                "wins": 0
+            }
         }
     },
     "vernabri#0388": {
